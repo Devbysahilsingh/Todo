@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  body {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight:800;
+  font-style: normal;
+
+  }
+}
+@theme{
+  --breakpoint-tablet:555px;
+  --breakpoint-laptop:769px;
+  --breakpoint-laptopl:1025px;
+}
